@@ -15,3 +15,8 @@ def line(line_array)
     puts line_status
   end
 end
+
+def take_a_number(line_array, name)
+  line_array << name
+  puts "Welcome, #{name}. You are number #{line_array.length + 1} in line."
+end
