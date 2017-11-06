@@ -12,6 +12,6 @@ def line(line_array)
         line_status << ("#{i+1}. #{line_array[i]}")
       end
     end
-    line_status
+    puts line_status
   end
 end
